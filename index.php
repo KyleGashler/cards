@@ -1,3 +1,8 @@
+<?php
+session_start();
+session_destroy();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +12,10 @@
     <title>21</title>
 </head>
 <body>
-    <div id="x">Draw 2 Cards</div>
-    <form action=""></form>
-    <button class="submit" id="draw" name="draw" onclick="<?php header("Location: drawtwo.php"); ?>">Draw</button>
-    
+    <form action="drawtwo.php" method="get">
+    <button class="submit" name="draw"  ?>Draw 2 cards</button>
+
+    </form>
+  
 </body>
 </html>
